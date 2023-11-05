@@ -1,0 +1,89 @@
+body {
+    font-family: "Montserrat", sans-serif !important;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+form {
+    border: 2px solid #f1f1f1;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 15px 0;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+    opacity: 0.9;
+}
+
+.cancelbtn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+img.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 20px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 15px;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+p.register-link {
+    color: #353535;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p.register-link a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p.register-link a:hover {
+    text-decoration: underline;
+}

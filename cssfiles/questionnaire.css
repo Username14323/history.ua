@@ -1,0 +1,139 @@
+body{
+    background: url("../static/images/image.jpg") no-repeat fixed center / cover;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.form{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.bg {
+    position: absolute;
+    z-index: 1;
+    left: -10px;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+    filter: blur(5px);
+    background: url("../static/images/image.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .gen {
+    font-size: 14px;
+    color: #555;
+    }
+    
+    .gen small {
+    font-weight: bold;
+    }
+    
+    .gen a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    }
+    
+    .gen a:hover {
+    color: navy;
+    background-color: #e8f0fe;
+    border-radius: 3px;
+    padding: 2px;
+    }
+
+
+h1, h2{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+
+  form {
+    margin: auto;
+    max-width: 600px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  textarea,
+  select,
+  input[type="file"] {
+    width: 95%;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    color: #333;
+  }
+
+  input[type="text"]:focus,
+  textarea:focus,
+  select:focus,
+  input[type="file"]:focus {
+    background-color: #f2f2f2;
+    outline: none;
+  }
+
+  .input-icon {
+    position: relative;
+  }
+
+  .input-icon i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #999;
+    transition: color 0.3s ease;
+  }
+
+  input[type="text"]:focus + .input-icon i,
+  textarea:focus + .input-icon i,
+  select:focus + .input-icon i,
+  input[type="file"]:focus + .input-icon i {
+    color: #333;
+  }
+
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+    animation: shake 0.5s;
+  }
+
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(10px); }
+    50% { transform: translateX(0); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+  }

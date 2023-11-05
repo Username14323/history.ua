@@ -1,0 +1,235 @@
+html{
+    background: url("../galaxy-night-landscape.jpg") no-repeat fixed center / cover;
+    position: relative;
+    overflow-y:scroll ;
+}
+
+body {
+  height: 100%;
+  background-image: url("../galaxy-night-landscape.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.box {
+  overflow: hidden;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  border: 2px solid #000;
+  width: 50%;
+  padding: 80px 0;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.box:before {
+  content: "";
+  background-image: url("../galaxy-night-landscape.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  top: -5%;
+  left: -5%;
+  z-index: 1;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+
+h1, h2, h3 {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.title{
+	font-family: "Arial";
+	font-size:80px;
+	text-shadow:
+    0 0 1px #fff,
+   	0 0 2px #fff,
+    0 0 5px #fff,
+    0 0 11px #0fa,
+    0 0 20px #0fa,
+    0 0 30px #0fa,
+    0 0 55px #0fa,
+    0 0 80px #0fa;
+	text-align: center;
+}
+
+p{
+  position: relative;
+  z-index: 2;
+  color:white;
+  font-size:20px;
+}
+
+a{
+  position: relative;
+  z-index: 2;
+  color:white;
+  outline: none;
+  text-decoration: none;
+}
+
+
+* {box-sizing: border-box;}
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  z-index: 2;
+  position: relative;
+}
+
+.search-form input[type="text"] {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  width: 60%;
+  transition: border-color 0.3s ease;
+}
+
+.search-form input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.search-form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search-form button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+.container{
+  position: relative;
+  z-index: 2;
+  border:1px solid black;
+  padding: 25px;
+  margin: 10px;
+  box-shadow:
+  inset 0 -3em 3em rgba(0,0,0,0.1),
+  0 0  0 2px rgb(255,255,255),
+  0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+
+.history-image{
+  position: relative;
+  z-index: 2;
+  width: 30%;
+  display: block;
+  float: right;
+  text-align: center;
+}
+
+.main-menu{
+  position: relative;
+  z-index:2;
+}
+
+li{
+  list-style-type: none;
+}
+
+#title{
+  font-family: Arial;
+  font-size: 80px;
+  color: #00FF7F;
+  text-shadow:
+  0 0 1px #fff,
+  0 0 2px #fff,
+  0 0 5px #fff,
+  0 0 11px #0fa,
+  0 0 20px #0fa,
+  0 0 30px #0fa,
+  0 0 55px #0fa,
+  0 0 80px #0fa;
+}
+
+
+.history-text{
+  float: center;
+  position: relative;
+  z-index:2;
+  color:black;
+  margin-bottom: 160px;
+}
+
+.history-name{
+  float: center;
+}
+
+.info_history_preview{
+  margin-left: 240px;
+}
+
+img{
+  object-fit: cover;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  margin-left: 5px;
+}
+
+.history-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  .history-link {
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  }
+  
+  .history-link:hover {
+    color: #00FFFF;
+    box-shadow: 0 0 10px #00FFFF;
+  }
+
+.info_history_preview {
+  font-size: 20px;
+  line-height: 1.5;
+  color:white;
+  margin-top: 20px;
+  margin-bottom: 160px;
+}
+      
+.info_history_preview p {
+  margin: 0;
+}
+
+small{
+  position: relative;
+  z-index: 2;
+}
+
+.view{
+  font-size: 25px;
+  color: white;
+  margin-left: 240px;
+  font-weight: bold;
+}
